@@ -1,0 +1,17 @@
+.ten_blocks_div {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.product-card {
+    background-color: ghostwhite;
+    margin-bottom: 10px;
+}
+
+.product-image {
+    width: 200px;
+}
+
+
