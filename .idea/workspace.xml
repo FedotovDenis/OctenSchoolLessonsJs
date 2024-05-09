@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6ba2e61-03ec-4e19-a5a6-ba5b10dc3073" name="Changes" comment="Homework for the second lecture is completed. I add two files index.html and index.js">
-      <change afterPath="$PROJECT_DIR$/lessons/homeWork3_loops/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/homeWork3_loops/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/homeWork3_loops/index.js" afterDir="false" />
+    <list default="true" id="d6ba2e61-03ec-4e19-a5a6-ba5b10dc3073" name="Changes" comment="The homework for the third lecture is completed. I am adding three files index.html index.js index.css">
+      <change afterPath="$PROJECT_DIR$/lessons/homeWork4_functions/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/homeWork4_functions/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,9 +17,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="HTML File" />
         <option value="JavaScript File" />
-        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -41,23 +40,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -75,7 +74,10 @@
       <workItem from="1715020338271" duration="5538000" />
       <workItem from="1715105387318" duration="2204000" />
       <workItem from="1715107638766" duration="128000" />
-      <workItem from="1715107797787" duration="2767000" />
+      <workItem from="1715107797787" duration="3751000" />
+      <workItem from="1715193265659" duration="4060000" />
+      <workItem from="1715197711952" duration="4464000" />
+      <workItem from="1715279003932" duration="11613000" />
     </task>
     <task id="LOCAL-00001" summary="Homework done for the first lecture.">
       <option name="closed" value="true" />
@@ -93,7 +95,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714685489567</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="The homework for the third lecture is completed. I am adding three files index.html index.js index.css">
+      <option name="closed" value="true" />
+      <created>1715110884497</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1715110884498</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,6 +112,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Homework done for the first lecture." />
     <MESSAGE value="Homework for the second lecture is completed. I add two files index.html and index.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="Homework for the second lecture is completed. I add two files index.html and index.js" />
+    <MESSAGE value="The homework for the third lecture is completed. I am adding three files index.html index.js index.css" />
+    <option name="LAST_COMMIT_MESSAGE" value="The homework for the third lecture is completed. I am adding three files index.html index.js index.css" />
   </component>
 </project>
