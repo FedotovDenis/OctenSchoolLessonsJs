@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6ba2e61-03ec-4e19-a5a6-ba5b10dc3073" name="Changes" comment="Homework for the fifth lecture.">
-      <change afterPath="$PROJECT_DIR$/lessons/homeWork6_array_functions/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/homeWork6_array_functions/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/homeWork7_constructors_class/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/homeWork7_constructors_class/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,6 +84,9 @@
       <workItem from="1715709329494" duration="6680000" />
       <workItem from="1715795765390" duration="11690000" />
       <workItem from="1716125049657" duration="3551000" />
+      <workItem from="1716265853883" duration="102000" />
+      <workItem from="1716266002825" duration="1515000" />
+      <workItem from="1716314794559" duration="14238000" />
     </task>
     <task id="LOCAL-00001" summary="Homework done for the first lecture.">
       <option name="closed" value="true" />
