@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6ba2e61-03ec-4e19-a5a6-ba5b10dc3073" name="Changes" comment="Homework for the seventh lecture.">
-      <change afterPath="$PROJECT_DIR$/lessons/homeWork9_dom/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/homeWork9_dom/index.js" afterDir="false" />
+    <list default="true" id="d6ba2e61-03ec-4e19-a5a6-ba5b10dc3073" name="Changes" comment="Homework for the ninth lecture.">
+      <change afterPath="$PROJECT_DIR$/lessons/homeWork10_events/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/homeWork10_events/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/homeWork10_events/sessions.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +19,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -43,6 +44,11 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.CodyAccountHistoryMigration&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.CodyConvertUrlToCodebaseName&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.CodyHistoryLlmMigration&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.CodyProjectSettingsMigration&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
@@ -87,7 +93,13 @@
       <workItem from="1716265853883" duration="102000" />
       <workItem from="1716266002825" duration="1515000" />
       <workItem from="1716314794559" duration="16351000" />
-      <workItem from="1716731362317" duration="8690000" />
+      <workItem from="1716731362317" duration="16309000" />
+      <workItem from="1716804963396" duration="1194000" />
+      <workItem from="1716806200471" duration="188000" />
+      <workItem from="1716806446920" duration="556000" />
+      <workItem from="1716807062287" duration="69000" />
+      <workItem from="1716807162281" duration="17267000" />
+      <workItem from="1717010031505" duration="7863000" />
     </task>
     <task id="LOCAL-00001" summary="Homework done for the first lecture.">
       <option name="closed" value="true" />
@@ -137,7 +149,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716488531856</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Homework for the ninth lecture.">
+      <option name="closed" value="true" />
+      <created>1716740770534</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1716740770534</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,6 +170,11 @@
     <MESSAGE value="Homework for the fourth lecture" />
     <MESSAGE value="Homework for the fifth lecture." />
     <MESSAGE value="Homework for the seventh lecture." />
-    <option name="LAST_COMMIT_MESSAGE" value="Homework for the seventh lecture." />
+    <MESSAGE value="Homework for the ninth lecture." />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework for the ninth lecture." />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
