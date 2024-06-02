@@ -1,0 +1,34 @@
+/*
+Завдання №1
+    - взяти https://dummyjson.com/docs/carts та вивести інформацію про всі корзини. Відобразити всі поля кожної корзини.
+ */
+
+.cart {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+}
+
+.product {
+    border: 1px solid #ddd;
+    margin: 5px;
+    padding: 5px;
+}
+
+
+/*
+Завдання №2
+- взяти https://dummyjson.com/docs/recipes та вивести інформацію про всі рецепти. Інгредієнти повинні бути список під час відображення.
+ */
+
+.recipe {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+}
+
+.ingredient {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
