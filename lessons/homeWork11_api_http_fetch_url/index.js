@@ -61,50 +61,55 @@ fetch('https://dummyjson.com/carts')
 - взяти https://dummyjson.com/docs/recipes та вивести інформацію про всі рецепти. Інгредієнти повинні бути список під час відображення.
  */
 
-// Через fetch звиртаємось на 'https://dummyjson.com/recipes' та через .then(res => res.json()) виводимо в форматі JSON recipes
+// Получаем контейнер для рецептов
+let recipesBlock = document.getElementById('recipesBlock');
+
+// Запрашиваем данные о рецептах
 fetch('https://dummyjson.com/recipes')
     .then(res => res.json())
-    .then(data => {
-        // Витягуємо масив рецептів з отриманих даних
-        let recipes = data.recipes;
+    .then(({recipes}) => {
+        // Перебираем каждый рецепт и создаем элементы для отображения
+        for (const recipe of recipes) {
+            let recipeInfo = document.createElement('div');
+            let recipeBlock = document.createElement('div');
+            let recipeName = document.createElement('div');
+            let ingredientsList = document.createElement('ul');
+            let recipeImg = document.createElement('img');
 
-        // Створюємо контейнер для інформації про рецепти
-        let recipesContainer = document.getElementById('recipesContainer');
+            // Добавляем классы для стилизации
+            recipeBlock.classList.add('recipe');
+            recipeName.classList.add('recipeName');
+            recipeInfo.classList.add('recipeInfo');
 
-        // Перебираємо кожен рецепт у масиві рецептів
-        recipes.forEach(recipe => {
-            // Створюємо елемент <div> для кожного рецепту
-            let recipeDiv = document.createElement('div');
-            recipeDiv.className = 'recipe';
-
-            // Заповнюємо <div> інформацією про рецепт
-            let recipeDetails = `
-                        <h3>${recipe.name}</h3>
-                        <p>Описание: ${recipe.description}</p>
+            // Заполняем информацию о рецепте
+            recipeName.innerText = `Name: ${recipe.name}`;
+            recipeBlock.innerText = `
+                        ID: ${recipe.id}
+                        Description: ${recipe.instructions.join(' ')}
+                        Calories per serving: ${recipe.caloriesPerServing}
+                        Cook time: ${recipe.cookTimeMinutes} minutes
+                        Cuisine: ${recipe.cuisine}
+                        Difficulty: ${recipe.difficulty}
+                        Prep time: ${recipe.prepTimeMinutes} minutes
+                        Rating: ${recipe.rating}
+                        Servings: ${recipe.servings}
                     `;
-            recipeDiv.innerHTML = recipeDetails;
+            recipeImg.src = recipe.image;
 
-            // Створюємо список <ul> для інгредієнтів
-            let ingredientsUL = document.createElement('ul');
-            ingredientsUL.className = 'ingredient';
+            // Добавляем список ингредиентов
+            ingredientsList.classList.add('ingredient');
+            for (const item of recipe.ingredients) {
+                let ingredient = document.createElement('li');
+                ingredient.innerText = item;
+                ingredientsList.appendChild(ingredient);
+            }
 
-            // Перебираємо кожен інгредієнт і додаємо до списку <ul>
-            recipe.ingredients.forEach(ingredient => {
-                let ingredientLI = document.createElement('li');
-                ingredientLI.textContent = ingredient;
-                ingredientsUL.appendChild(ingredientLI);
-            });
-
-            // Додаємо список інгредієнтів до <div> рецепта
-            recipeDiv.appendChild(ingredientsUL);
-
-            // Додаємо <div> рецепта до контейнера
-            recipesContainer.appendChild(recipeDiv);
-        });
+            // Собираем всю информацию в одном блоке
+            recipeInfo.append(recipeName, recipeBlock, recipeImg, ingredientsList);
+            recipesBlock.appendChild(recipeInfo);
+        }
     })
-    .catch(error => console.error('Помилка при отриманні даних про рецепти:', error));
-
-
+    .catch(error => console.error('Ошибка при получении данных о рецептах:', error));
 
 
 

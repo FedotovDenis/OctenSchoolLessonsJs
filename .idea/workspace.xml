@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6ba2e61-03ec-4e19-a5a6-ba5b10dc3073" name="Changes" comment="Homework for the ten lecture.">
-      <change afterPath="$PROJECT_DIR$/lessons/homeWork11_api_http_fetch_url/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/homeWork11_api_http_fetch_url/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/homeWork11_api_http_fetch_url/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/homeWork11_api_http_fetch_url/user-details.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/homeWork11_api_http_fetch_url/users.html" afterDir="false" />
+    <list default="true" id="d6ba2e61-03ec-4e19-a5a6-ba5b10dc3073" name="Changes" comment="Homework for the eleventh lecture.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lessons/homeWork11_api_http_fetch_url/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/homeWork11_api_http_fetch_url/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lessons/homeWork11_api_http_fetch_url/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/homeWork11_api_http_fetch_url/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lessons/homeWork11_api_http_fetch_url/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/homeWork11_api_http_fetch_url/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +45,8 @@
   &quot;keyToString&quot;: {
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.user-details.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.users.html.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.CodyAccountHistoryMigration&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.CodyConvertUrlToCodebaseName&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.CodyHistoryLlmMigration&quot;: &quot;true&quot;,
@@ -55,6 +55,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/DenisFedotov/IdeaProjects/OctenSchoolLessonsJs&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -102,7 +103,9 @@
       <workItem from="1716807062287" duration="69000" />
       <workItem from="1716807162281" duration="17267000" />
       <workItem from="1717010031505" duration="23330000" />
-      <workItem from="1717326528158" duration="3284000" />
+      <workItem from="1717326528158" duration="4077000" />
+      <workItem from="1717437104714" duration="3832000" />
+      <workItem from="1717520560418" duration="844000" />
     </task>
     <task id="LOCAL-00001" summary="Homework done for the first lecture.">
       <option name="closed" value="true" />
@@ -176,7 +179,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717045956599</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Homework for the eleventh lecture.">
+      <option name="closed" value="true" />
+      <created>1717330902439</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1717330902439</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,7 +202,8 @@
     <MESSAGE value="Homework for the seventh lecture." />
     <MESSAGE value="Homework for the ninth lecture." />
     <MESSAGE value="Homework for the ten lecture." />
-    <option name="LAST_COMMIT_MESSAGE" value="Homework for the ten lecture." />
+    <MESSAGE value="Homework for the eleventh lecture." />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework for the eleventh lecture." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

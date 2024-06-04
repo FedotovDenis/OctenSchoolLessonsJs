@@ -22,13 +22,17 @@
  */
 
 .recipe {
-    border: 1px solid #ccc;
-    margin: 10px;
+    border: 1px solid #ddd;
     padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
 }
-
-.ingredient {
-    list-style-type: disc;
-    margin-left: 20px;
+.recipe img {
+    max-width: 100%;
+    height: auto;
 }
-
+.ingredient, .instructions {
+    list-style-type: none;
+    padding: 0;
+}
